@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html>
+<head> 
+<meta charset="utf-8" />
+<title>汉服首页</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+<div class="header">
+   <div class="logo"><img src="images/logo.png" /></div>
+   <div class="nav">
+       <ul>
+         <li><a href="index.html" class="on">Home</a></li>
+         <li><a href="jiegou.html">About</a></li>
+         <li><a href="lianxi.html">Contact</a></li>
+      </ul>
+   </div>
+</div>
+
+<div class="banner"><img src="images/banner1.jpg" /></div>
+
+<div class="ny">
+   <div class="shang">
+       <div class="shang_jian">
+           <h2>汉族传统服饰</h2>
+           <h3>Traditinal HANFU</h3>
+           <p>汉族传统服饰，简称汉服，即华夏衣冠，又称为汉装、华服。属于中国汉族的传统服饰。是从夏商周时期到明朝末期，华夏民族（汉族）所着的、具有浓郁华夏民族风格的一系列华夏民族服饰的总体集合。</p>
+           <h4>有章服之美，<br />谓之华，<br />有礼仪之大。</h4>
+       </div>
+   </div>
+   <h1>【汉服简介】</h1>
+    <div class="jianjie">
+        <p>汉服，全称是“汉民族传统服饰”，又称汉衣冠、汉装、华服，是从黄帝即位到公元17世纪中叶（明末清初），在汉族的主要居住区，以“华夏－汉”文化为背景和主导思想，以华夏礼仪文化为中心，通过自然演化而形成的具有独特汉民族风貌性格，明显区别于其他民族的传统服装和配饰体系，是中国“衣冠上国”、“礼仪之邦”、“锦绣中华”、赛里斯国的体现，承载了汉族的染织绣等杰出工艺和美学，传承了30多项中国非物质文化遗产以及受保护的中国工艺美术。</p>
+        <p>与汉人一词类似，汉服中的“汉”字的词义外延亦存在着由汉朝扩大为整个民族指称的过程。如《马王堆三号墓遣册》关于“汉服”最早的记载：“简四四‘美人四人，其二人楚服，二人汉服’”中的“汉服”是指汉朝的服饰礼仪制度，即《周礼》《仪礼》《礼记》里的冠服体系；而成书于唐朝的《蛮书》的记载：“初袭汉服，后稍参诸戎风俗，迄今但朝霞缠头，其余无异”中的“汉服”指的则是汉人的服饰礼仪制度。</p>
+    </div>
+</div>
+
+<div class="fsxs">
+     <div class="title">
+		<h2>HANFU pictures</h2>
+		<span></span>
+    </div>
+    
+    <div id=demo style="overflow:hidden;width:990px;color:#ffffff; margin:20px auto 0;">
+    <table border=0 align=left cellpadding=0 cellspacing="0" cellspace=0>
+      <tr>
+        <td valign=top id=demo1><table width="990"  border="0" cellspacing="5" cellpadding="0">
+            <tr>
+              <td><a href="#"><img src="images/t.jpg"  height="380" border="0" style="margin-left:15px;"></a></td>
+              <td><a href="#"><img src="images/t3.jpg"  height="380" border="0" style="margin-left:15px;"></a></td>
+              <td><a href="#"><img src="images/t1.jpg"  height="380" border="0" style="margin-left:15px;"></a></td>
+              <td><a href="#"><img src="images/t2.jpg" height="380" border="0" style="margin-left:15px;"></a></td>
+            </tr>
+          </table></td>
+        <td id=demo2 valign=top></td>
+      </tr>
+    </table>
+  </div>
+  <script>
+        var speed=30
+        demo2.innerHTML=demo1.innerHTML
+        function Marquee(){
+        if(demo2.offsetWidth-demo.scrollLeft<=0)
+            demo.scrollLeft-=demo1.offsetWidth
+        else{
+            demo.scrollLeft++
+            }
+        }
+        var MyMar=setInterval(Marquee,speed)
+        demo.onmouseover=function() {clearInterval(MyMar)}
+        demo.onmouseout=function() {MyMar=setInterval(Marquee,speed)}
+    </script> 
+    
+    
+</div>
+
+<div class="sc">
+    <div class="title1">
+		<h2>Accessories colors</h2>
+		<span></span>
+    </div>
+    
+    <div class="leixing">
+    <h1>【Accessories】</h1>
+    <p><img src="images/hf.png" width="300" align="right" / style="padding:0 10px;">汉族人装饰有一个重要特征就是喜饰玉佩玉。还有配饰如蔽膝、披帛、袜、帔、香囊（香包）、剑、绶、印、笏、牙牌、革带、玉带、銙、腾蛇等等。腰饰主要有佩黼、佩玉、佩印、佩绶、佩鱼、佩牌、佩带饰等饰物。储藏汉服的家具被称为衣箧，挂汉服的衣架称为衣桁。</p>
+    <br /><h1>【Color】</h1>
+    <p>古典布料的染色遵从古制，体现了阴阳五行信仰。有“黑土、白土、赤土、青土、黄土”、“天谓之玄，地谓之黄，青与白相次也，赤与黑相次也，玄与黄相次也。青与赤谓之文，赤与白谓之章，白与黑谓之黼，黑羽青谓之黻，五彩备谓之绣。……杂四时五色之位以章之，谓之巧”、“王者易姓受命，必慎始初，改正朔，易服色”的记载。</p>
+    <p>有六象六色之说，青所以象东方的木，赤所以象南方的火，白所以象西方的金，黑所以象北方的水，玄所以象天，黄所以象地。除了六正色以外，还有对应的间色：纁【黄赤色】、紫【青赤色】、红【赤白色】、绿【青黄色】、缥【青白色】。间色也是南北朝以后公服的色制：朱、紫、绯、绿、青，如唐代为三品以上穿紫色官服，四品着深绯色，五品着浅绯色，六品着深绿色，七品着浅绿色，八品着深青色，九品着浅青色。另外还有绀【深青扬赤色】、绯【赤】、绛【大赤】、缇【丹黄】、朱【深纁】。</p>
+    <p>传统对服饰色彩的选择上有着明显的阶层分界。从唐代以后，黄色曾长期被视为尊贵的颜色，只有天子权贵们才能穿用。古代汉服的色彩以深色为贵，浅色次之，因此正式的礼服常使用深沉的织绵图纹，而一颜色为主色调，装饰以鲜艳华丽的刺绣。平民常服则多用淡色，因而有黔首、白丁、青衣、青衿、青衫、赭衣之称。</p>
+  </div>
+
+</div>
+
+<div class="foot">版权所有：HANFU </div>
+
+</body>
+</html>
